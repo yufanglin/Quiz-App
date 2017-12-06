@@ -1,0 +1,92 @@
+[
+	{
+		"question":"If you want to create a custom class which can be displayed on the view, you can subclass UIView.",
+		"answers":["True", "False"],
+		"correctIndex":0,
+		"module":3,
+		"lesson":0,
+		"feedback":"Subclassing UIView gives your class the methods and properties of a basic view which can be placed onto the view."
+	},
+	{
+		"question":"When you want to create a new class in your Swift project which type of new file do you select?",
+		"answers":["Swift File", "Cocoa Touch Class", "Objective-C File"],
+		"correctIndex":1,
+		"module":3,
+		"lesson":0,
+		"feedback":"Choose Cocoa Touch Class. The other ones will give you an empty file."
+	},
+	{
+		"question":"When you want to create a custom class that has non view, you can subclass NSObject",
+		"answers":["True", "False"],
+		"correctIndex":0,
+		"module":3,
+		"lesson":0,
+		"feedback":"NSObject is the root class of all the UIKit classes. This is the class that you want to subclass if no other UIKit classes are more suitable for the intention of your new class."
+	},
+	{
+		"question":"This is the syntax for a subclass: 'class MySubclass -> UIView'",
+		"answers":["True", "False"],
+		"correctIndex":1,
+		"module":3,
+		"lesson":0,
+		"feedback":"The correct syntax for subclassing is with a colon: 'class MySubclass : UIView'"
+	},
+	{
+		"question":"What is the view hierarchy",
+		"answers":["It's the UIKit hierarchy of views.", "It's the tree-like stack of views and subviews that comprise the overall view that the user sees", "It's a ranking of views in the priority sequence."],
+		"correctIndex":1,
+		"module":3,
+		"lesson":0,
+		"feedback":"The view hierarchy is what we call the stack of views that exist in our storyboard."
+	},
+	{
+		"question":"The UIView can contain subviews.",
+		"answers":["True", "False"],
+		"correctIndex":0,
+		"module":3,
+		"lesson":0,
+		"feedback":"The UIView class is a container view that can contain other elements as subviews."
+	},
+	{
+		"question":"The root view of the view hierarchy is a UIView.",
+		"answers":["True", "False"],
+		"correctIndex":0,
+		"module":3,
+		"lesson":0,
+		"feedback":"The root node of the entire view hierarchy is a UIView."
+	},
+	{
+		"question":"UIViews can contain other UIViews.",
+		"answers":["True", "False"],
+		"correctIndex":0,
+		"module":3,
+		"lesson":0,
+		"feedback":"UIViews can contain other UIViews as subviews."
+	},
+	{
+		"question":"The view we build using the storyboard can all be done programmatically.",
+		"answers":["True", "False"],
+		"correctIndex":0,
+		"module":3,
+		"lesson":0,
+		"feedback":"We can create and add elements onto the view without the use of the storyboard by using the addSubview method of the root UIView."
+	},
+	{
+		"question":"What is the method we use to add subviews to a UIView?",
+		"answers":["addView", "addSubclass", "addSubview"],
+		"correctIndex":2,
+		"module":3,
+		"lesson":0,
+		"feedback":"addSubview is the correct method to use in order to add a subview to a UIView."
+	},
+	{
+		"question":"How can you access the root view from the view controller?",
+		"answers":["The view controller can use the 'rooview' property to access it.", "The view controller has a reference to the root view through the 'view' property.", "The view controller can reference the storyboard to access the root view."],
+		"correctIndex":1,
+		"module":3,
+		"lesson":0,
+		"feedback":"The view controller has a 'view' property which the root view is assigned to."
+	}
+
+
+]
